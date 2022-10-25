@@ -4,14 +4,14 @@ import '../../shared/components/components_screen.dart';
 import '../login_signup/login_screen.dart';
 import '../login_signup/signup_screen.dart';
 
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+class firstScreen extends StatefulWidget {
+  const firstScreen({Key? key}) : super(key: key);
 
   @override
   _HomeScreenState createState() => _HomeScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _HomeScreenState extends State<firstScreen> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
